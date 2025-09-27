@@ -42,7 +42,7 @@ st.markdown("---")
 # =====================================================
 st.header("🎯 Objetivo do App")
 st.info("""
-O presente aplicativo tem como objetivo **consultar e visualizar** informações sobre a distribuição do **FUNDEB/FUNDEPE** no Brasil.  
+O presente aplicativo tem como objetivo **consultar e visualizar** informações sobre a distribuição do **FUNDEB** no Brasil.  
 
 O **FUNDEB** é o principal fundo de financiamento da educação básica, e o **MEC** publica portarias trimestrais que detalham:
 - Recursos recebidos por estado;
@@ -152,5 +152,6 @@ As próximas etapas incluirão:
 
 Dessa forma, será possível **facilitar a análise da distribuição dos recursos** e apoiar a gestão educacional em estados e municípios.
 """)
+
 
 
