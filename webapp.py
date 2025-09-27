@@ -6,7 +6,7 @@ import plotly.express as px
 # CONFIGURAÇÃO DO APP
 # =====================================================
 st.set_page_config(
-    page_title="Distribuição do FUNDEB",
+    page_title="Distribuição do FUNDEB no Brasil",
     page_icon="📊",
     layout="wide"
 )
@@ -42,13 +42,13 @@ st.markdown("---")
 # =====================================================
 st.header("🎯 Objetivo do App")
 st.info("""
-O presente aplicativo tem como objetivo **consultar e visualizar** informações sobre a distribuição do **FUNDEB/FUNDEPE** no Brasil.  
+O presente aplicativo tem como objetivo **consultar e visualizar** informações sobre a distribuição do **FUNDEB e suas complementações** no Brasil.  
 
 O **FUNDEB** é o principal fundo de financiamento da educação básica, e o **MEC** publica portarias trimestrais que detalham:
-- Recursos recebidos por estado;
-- Complementações da União;
-- Matrículas por município;
-- Distribuição consolidada final.  
+- Matrículas consideradas
+- Recursos recebidos por redes de ensino estaduais e municipais desde a implementação no Novo Fundeb
+- Complementações da União(VAAF/VAAR/VAAT; 
+- Distribuição consolidada final por estado e município.  
 
 Este app é um **protótipo interativo** para simular como essas informações podem ser apresentadas de forma visual e acessível.
 """)
@@ -152,5 +152,6 @@ As próximas etapas incluirão:
 
 Dessa forma, será possível **facilitar a análise da distribuição dos recursos** e apoiar a gestão educacional em estados e municípios.
 """)
+
 
 
