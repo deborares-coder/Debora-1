@@ -6,7 +6,7 @@ import plotly.express as px
 # CONFIGURAÇÃO DO APP
 # =====================================================
 st.set_page_config(
-    page_title="Distribuição dos recursos do FUNDEB- Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação",
+    page_title="Distribuição dos recursos do FUNDEB (Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação)",
     page_icon="📊",
     layout="wide"
 )
@@ -165,5 +165,6 @@ As próximas etapas incluirão:
 
 Dessa forma, será possível **facilitar a análise da distribuição dos recursos** e apoiar a gestão educacional em estados e municípios.
 """)
+
 
 
